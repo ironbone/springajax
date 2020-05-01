@@ -25,7 +25,7 @@ import lu.lllc.ajax.repository.CountryRepository;
 //Add the @CrossOrigin annotation if you want to be able to use
 //your Rest API from a web page which does not come from your server, 
 //or from a mobile application
-@CrossOrigin(origins = "*")
+//@CrossOrigin(origins = "*")
 @RestController
 @RequestMapping("/api")
 public class ApiController {
