@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Ajax example. Manually REST. Post</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script th:src="@{/js/script.js}"></script>
+</head>
+<body>
+<h1>Test your REST API dynamically. @RestController auto</h1>
+<div style="overflow: hidden">
+Choose the country: <br>
+<input oninput="getCountry(this)">
+<div id="output"></div>
+</div>
+<div>
+<a href="/autorest">Auto REST example</a>
+<br>
+<a href="/manualyJson">Own JSON REST example</a>
+</div>
+</body>
+</html>
